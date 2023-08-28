@@ -54,5 +54,5 @@ setup(name='MSMcam',
           'console_scripts':
           ['MSMcam=MSMcam.MSMcam:main',]
           },
-      install_requires=["numpy>=1.13.0", "scipy==0.19.1", "pandas", "xlsxwriter", "scikit-image==0.13.0", "scikit_learn>=0.19", "termcolor", "reportlab==3.4.0", "imageio", "matplotlib>=1.5.3"],
+      install_requires=["numpy>=1.13.0", "scipy==0.19.1", "pandas", "xlsxwriter", "scikit-image==0.13.0", "scikit_learn>=0.19", "termcolor", "reportlab==3.6.13", "imageio", "matplotlib>=1.5.3"],
       zip_safe=False)
